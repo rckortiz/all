@@ -46,5 +46,9 @@ const shuffleDeck = () => {
   }
 }
 
+const deal = () => {
+  document.querySelector('.result').innerHTML(deal)
+}
+
 makeDeck()
 shuffleDeck()
